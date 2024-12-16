@@ -1,28 +1,57 @@
-h1:nth-child(5){
-    background-color: orange;
-}
-
-header > p:first-of-type {
-    background-color: yellow;
-}
-
-pre:last-of-type{
-    background-color: green;
-}
-
-h1:only-of-type{
+body header p:first-child {
     background-color: red;
 }
 
-header > p:nth-of-type(2){
-    background-color: pink;
+
+body  header  p:nth-child(10) {
+    background-color: blue;  
 }
 
-div > p:nth-of-type(1) {
-    background-color: skyblue;
+
+body  header  h1:nth-child(5) {
+    background-color: green;  
 }
 
-section h1:first-of-type{
-    color: blue;
-    text-decoration: underline;
+
+body  header  div  section  div  h1:nth-child(4) {
+    background-color: brown;  
+}
+
+
+body  header  div  p:nth-child(5) {
+    background-color: cyan;  
+}
+
+
+body  header  h1:nth-child(20) {
+    background-color: pink; 
+}
+
+
+body  header  div  h1:nth-child(5) {
+    background-color: purple;  
+}
+
+
+body  header  p:nth-child(10) {
+    background-color: orange;  
+}
+
+
+body  header  section  h1:nth-child(1) {
+    background-color: yellow;  
+}
+
+
+body  header  section > h1:nth-child(5) {
+    background-color: teal;  
+}
+
+
+body  header  div  div  h1:nth-child(5) {
+    background-color: magenta;  
+}
+
+pre {
+    background-color: lime;  
 }
