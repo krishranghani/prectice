@@ -1,54 +1,53 @@
-body header p:first-child {
-    background-color: red;
+ header p:first-child{
+    background-color: green;
+}
+
+ header  p:nth-child(10) {
+    background-color: pink;  
 }
 
 
-body  header  p:nth-child(10) {
-    background-color: blue;  
+ header  h1:nth-child(5) {
+    background-color: red;  
 }
 
 
-body  header  h1:nth-child(5) {
-    background-color: green;  
-}
-
-
-body  header  div  section  div  h1:nth-child(4) {
-    background-color: brown;  
-}
-
-
-body  header  div  p:nth-child(5) {
+ header  div  section  div  h1:nth-child(4) {
     background-color: cyan;  
 }
 
 
-body  header  h1:nth-child(20) {
-    background-color: pink; 
+ header  div  p:nth-child(5) {
+    background-color: brown;  
 }
 
 
-body  header  div  h1:nth-child(5) {
-    background-color: purple;  
+ header  h1:nth-child(20) {
+    background-color: blue; 
 }
 
 
-body  header  p:nth-child(10) {
+ header  div  h1:nth-child(5) {
     background-color: orange;  
 }
 
 
-body  header  section  h1:nth-child(1) {
+ header  p:nth-child(10) {
+    background-color: purple;  
+}
+
+
+ header  section  h1:nth-child(1) {
     background-color: yellow;  
 }
 
 
-body  header  section > h1:nth-child(5) {
+ header  section > h1:nth-child(5) {
     background-color: teal;  
 }
 
 
-body  header  div  div  h1:nth-child(5) {
+ header  div  div  h1:nth-child(5) {
     background-color: magenta;  
 }
 
